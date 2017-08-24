@@ -1,0 +1,23 @@
+生产者消费者中消费者怎么来监听事件？有哪些方法？
+线程互斥的方法？
+
+
+
+
+线程同步
+１．sychnorized知道么？synchronized(静态对象)和synchronized(实例对象)的区别？
+２．sychnorized和lock接口的区别？
+!３．threadLocal的实现/作用？
+!４．volatile原理／作用
+ReentrantLock、synchronized的区别和各自特点?
+
+java多线程
+Java如何使用多线程？线程池相关？
+Java的解决多线程冲突的方法，锁的类型？
+有什么线程安全的Map
+
+java.lang.Concurrent
+conCurrentHashMap
+    ！1.conCurrentHashMap中的取Size操作的实现原理？（涉及到hashEntry的不动性，segment的count是volatile。）如果是你来做，你怎么怎么实现？
+    2.conCurrentHashMap相对于HashMap在并发方面做了哪些优化？
+    .concurrenthashmap，如何实现他的安全机制,size怎么实现的，
